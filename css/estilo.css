@@ -1,0 +1,63 @@
+p{
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+}
+header{
+    background: #00305C;
+    color: white;;
+    height: 80px;
+}
+.container{
+    max-width: 1280px;
+}
+
+h1{
+    margin-top: 2rem;
+    font-size: 3.5rem;
+    font-weight: lighter;
+}
+h2{
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.dialogs{
+    display: flex;
+    align-items: stretch;
+}
+.dialog{
+    min-width: 5rem;
+    max-width: 100%;
+    margin: 10px;
+    font-size: small;
+}
+.dialog-foto{
+    width: 100%;
+}
+.dialog-texto{
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+@media(max-width:40rem){
+    .main-title{
+        font-size: small;
+    }
+    .dialogs{
+        flex-flow: column;
+        align-items: center;
+    }
+    .dialog{
+        max-width: fit-content;
+    }
+}
+
+footer{
+    margin-top: 3rem;
+    background: #00305C;
+    color: white;
+    height: 80px;
+}

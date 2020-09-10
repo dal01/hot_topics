@@ -1,0 +1,112 @@
+#propostas_relacionadas{
+}
+.propostas{
+    display: flex;
+    justify-content: space-between;
+}
+.proposta{
+    padding: 2rem;
+    border: 3px solid #cccccc;
+    min-width: 5rem;
+    max-width: 100%;
+    width: 400px;
+}
+.proposta-top{
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #0095DA;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.proposta-icone_titulo{
+    display: flex;
+    flex-direction: row;
+    margin-right: 0.5rem;
+}
+.proposta-titulo{
+    color: #0095DA;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+.proposta-icone{
+    margin-right: 0.5rem;
+}
+.proposta-texto{
+    font-size: 0.9rem;
+    margin: 0.9rem 0;
+}
+.proposta-situacao-titulo{
+    font-size: x-small;
+    font-weight: bold;
+}
+.proposta-resultado_voto{
+    font-size: x-small;
+    font-weight: bold;
+    margin: 0 0.2rem;
+}
+.proposta-resultado_numero_de_votos{
+    font-size: x-small;
+}
+.proposta-situacao-status{
+    font-size: x-small;
+}
+.proposta-situacao-proximo_evento{
+    font-size: x-small;
+    color: #0095DA;
+}
+.proposta-tramite{
+    margin: 0.8rem 0;
+}
+.votacoes-container{
+    display: flex;
+    flex-flow: column;
+}
+.votacao-container {
+    display: flex;
+    flex-flow: row;
+    margin: 0.1rem 0;
+}
+.proposta-sim{
+    background: #69c27d;
+    height: 0.8rem;
+    width: 6rem;
+}
+.proposta-nao{
+    background: #d9534f;
+    height: 0.8rem;
+    width: 1rem;
+}
+.proposta-bottom{
+    margin-top: 1rem;
+}
+.participacao_social-votacao-container{
+    display: flex;
+    justify-content: space-between;
+}
+.proposta-titulo_participacao{
+    margin: 0.5rem 0;
+}
+.proposta-button{
+    height: 30px;
+    width: 90px;
+    border:0;
+    border-radius: 0;
+    background-color: #0095DA;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.proposta-button-icone{
+    max-height: 85%;
+    color: white;
+    margin-right: 0.3rem;
+}
+.button-texto{
+    color: white;
+    font-size: x-small;
+}
+
+.votacoes-container{
+    align-items: flex-start;
+}

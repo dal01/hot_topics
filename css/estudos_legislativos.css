@@ -1,0 +1,32 @@
+#estudos_legislativos{
+    margin-top: 2rem;
+}
+
+.estudos_legislativos{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.estudo_legislativo{
+    display: flex;
+    margin: 0.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid #0095DA;
+    flex-basis: 100%;
+}
+.estudo_legislativo-img{
+    margin-right: 0.5rem;
+    height: 2.5rem;
+}
+.estudo_legislativo-titulo{
+    font-size: xx-small;
+    margin: 0.2rem 0;
+}
+
+
+.estudo_legislativo-texto{
+    font-size: x-small;
+    font-weight: bold;
+}
+

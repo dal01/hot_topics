@@ -1,0 +1,34 @@
+
+.destaque{
+    display: flex;
+    margin: 5rem 0;
+    max-width: 100%;
+    background: #f1f1f1;
+    align-items: center;
+}
+.destaque-conteudo{
+    display:flex;
+    flex-flow: column;
+    padding-left: 2rem;
+}
+.destaque-conteudo-titulo{
+    font-size: xx-large;
+    line-height: 2.6rem;
+
+}
+.destaque-conteudo-faixa_azul{
+    background: #0095DA;
+    width: 5rem;
+    height: 2px;
+    margin: 10px 0 10px 0;
+}
+.destaque-conteudo-autor{
+    font-size: small;
+}
+.destaque-conteudo-data{
+    font-size: small;
+}
+.destaque-foto{
+    display:flex;
+    justify-self: flex-end;
+}
