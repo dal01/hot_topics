@@ -13,8 +13,8 @@
 }
 .destaque-conteudo-titulo{
     font-size: xx-large;
-    line-height: 2.6rem;
-
+    line-height: 4rem;
+    padding-top: 1.5rem;
 }
 .destaque-conteudo-faixa_azul{
     background: #0095DA;
@@ -27,8 +27,8 @@
 }
 .destaque-conteudo-data{
     font-size: small;
+    padding-bottom: 1.5rem;
 }
 .destaque-foto{
-    display:flex;
-    justify-self: flex-end;
+    padding: 0;
 }

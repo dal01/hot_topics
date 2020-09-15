@@ -38,21 +38,8 @@ h2{
     width: 100%;
 }
 .dialog-texto{
-    font-size: 1.2rem;
-    margin-top: 0.5rem;
-}
-
-@media(max-width:40rem){
-    .main-title{
-        font-size: small;
-    }
-    .dialogs{
-        flex-flow: column;
-        align-items: center;
-    }
-    .dialog{
-        max-width: fit-content;
-    }
+    font-size: 1.6rem;
+    margin: 0.7rem 0;
 }
 
 footer{
@@ -60,4 +47,7 @@ footer{
     background: #00305C;
     color: white;
     height: 80px;
+}
+.col-md{
+    padding: 7px;
 }

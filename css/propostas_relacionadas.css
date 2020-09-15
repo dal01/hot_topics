@@ -7,9 +7,7 @@
 .proposta{
     padding: 2rem;
     border: 3px solid #cccccc;
-    min-width: 5rem;
-    max-width: 100%;
-    width: 400px;
+    margin: 0.8rem;
 }
 .proposta-top{
     padding-bottom: 1.5rem;
@@ -25,15 +23,15 @@
 }
 .proposta-titulo{
     color: #0095DA;
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-weight: 300;
 }
 .proposta-icone{
     margin-right: 0.5rem;
 }
 .proposta-texto{
-    font-size: 0.9rem;
-    margin: 0.9rem 0;
+    font-size: 1.2rem;
+    margin: 1.6rem 0;
 }
 .proposta-situacao-titulo{
     font-size: x-small;
@@ -55,7 +53,7 @@
     color: #0095DA;
 }
 .proposta-tramite{
-    margin: 0.8rem 0;
+    margin: 2rem 0;
 }
 .votacoes-container{
     display: flex;
@@ -70,11 +68,13 @@
     background: #69c27d;
     height: 0.8rem;
     width: 6rem;
+    align-self: center;
 }
 .proposta-nao{
     background: #d9534f;
     height: 0.8rem;
     width: 1rem;
+    align-self: center;
 }
 .proposta-bottom{
     margin-top: 1rem;
