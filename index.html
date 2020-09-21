@@ -10,10 +10,27 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/destaque.css">
     <link rel="stylesheet" href="css/propostas_relacionadas.css">
     <link rel="stylesheet" href="css/estudos_legislativos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
@@ -24,29 +41,38 @@
         Header
     </header>
     <main class="container">
-        <a class="main-title">
-            <h1>Racismo em pauta</h1>
-        </a>
-        <section id="noticias" class="dialogs">
-            <div class="dialog">
+        <div class="row">
+            <div class="col-md main-title">
+                <h1>Racismo em pauta</h1>
+            </div>
+        </div>
+
+
+        <section id="noticias" class="dialogs row">
+            <div class="col-md">
                 <img class="dialog-foto" src="img/foto1.jpg" alt="foto1">
                 <p class="dialog-texto">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, obcaecati harum nobis, at
                     blanditiis delectus porro iste aliquid veritatis aut earum. Dolorum excepturi repudiandae, corporis
                     quos
                     veniam magni animi quaerat.
-                </p>
-            </div>
-            <div class="dialog">
-                <img class="dialog-foto" src="img/foto2.jpg" alt="foto2">
-                <p class="dialog-texto">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, obcaecati harum nobis, at
+                    blanditiis delectus porro iste aliquid veritatis aut earum. Dolorum excepturi repudiandae, corporis
+                    quos
+                    veniam magni animi quaerat.
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, obcaecati harum nobis, at
                     blanditiis delectus porro iste aliquid veritatis aut earum. Dolorum excepturi repudiandae, corporis
                     quos
                     veniam magni animi quaerat.
                 </p>
             </div>
-            <div class="dialog">
+            <div class="col-md">
+                <img class="dialog-foto" src="img/foto2.jpg" alt="foto2">
+                <p class="dialog-texto">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, obcaecati harum nobis, at
+                </p>
+            </div>
+            <div class="col-md">
                 <img class="dialog-foto" src="img/foto3.jpg" alt="foto3">
                 <p class="dialog-texto">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, obcaecati harum nobis, at
@@ -57,28 +83,32 @@
             </div>
         </section>
 
-        
-        <section id="destaque" class="destaque">
-            <div class="destaque-conteudo">
+        <section id="destaque" class="destaque row">
+            <img class="col-md-6 order-md-2 destaque-foto" src="img/foto_destaque.png" alt="foto destaque">
+            <div class="col-md-6 order-md-1">
                 <div class="destaque-conteudo-titulo">Brasil criou 1ª lei antirracismo após hotel em SP negar hospedagem
                     a dançarina negra americana</div>
                 <div class="destaque-conteudo-faixa_azul"></div>
                 <div class="destaque-conteudo-autor">Ricardo Westin</div>
                 <div class="destaque-conteudo-data">Publicado em 6/7/2020</div>
             </div>
-            <img class="destaque-foto" src="img/foto_destaque.png" alt="foto destaque">
         </section>
 
 
         <section id="propostas_relacionadas">
-            <h2>
-                Propostas relacionadas
-            </h2>
-            <div class="propostas">
-                <div class="proposta">
+            <div class="row">
+                <div class="col-md">
+                    <h2>
+                        Propostas relacionadas
+                    </h2>
+                </div>
+            </div>
+
+            <div class="row propostas">
+                <div class="col-md proposta">
                     <div class="proposta-top">
                         <div class="proposta-icone_titulo">
-                            <img class="proposta-icone" src="img/pasta.svg" alt="pasta">
+                            <i class="fas fa-folder icon-propostas_relacionadas_pasta"></i>
                             <p class="proposta-titulo">
                                 PEC 110/2019
                             </p>
@@ -88,14 +118,34 @@
                             Bens e Serviços (IBS).
                         </p>
                         <div class="proposta-icone_titulo">
-                            <img class="proposta-icone" src="img/localizacao.svg" alt="Situação atual">
-                            <div class="">
+                            <i class="icon-exclamacao fas fa-exclamation-circle"></i>
+                            <div>
                                 <p class="proposta-situacao-titulo">Situação atual:</p>
                                 <p class="proposta-situacao-status">Aguardando designação de delator.</p>
                                 <p class="proposta-situacao-proximo_evento">Próximo evento></p>
                             </div>
                         </div>
-                        <img class="proposta-tramite" src="img/tramite.svg" alt="tramite">
+                        <div class="proposta-tramite">
+                            <div class="font_smaller">
+                                <div class="inline-block quadrado"></div>
+                                <div class="inline-block quadrado"></div>
+                                <div class="inline-block quadrado"></div>
+                                <div class="circulo-texto">
+                                    <div class="bold">CAE</div>
+                                    <div class="inline-block circulo verde"><i class="fas fa-check-circle"></i></div>
+                                </div>
+                                <div class="inline-block retangulo"></div>
+                                <div class="circulo-texto">
+                                    <div>CCJ</div>
+                                    <div class="inline-block circulo"><i class="far fa-circle"></i></div>
+                                </div>
+                                <div class="inline-block retangulo"></div>
+                                <div class="circulo-texto-grande">
+                                    <div>PLENÁRIO</div>
+                                    <div class="circulo"><i class="far fa-circle"></i></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="proposta-bottom">
                         <p class="proposta-titulo_participacao">Participação social</p>
@@ -112,17 +162,15 @@
                                     <p class="proposta-resultado_numero_de_votos">35 votos</p>
                                 </div>
                             </div>
-                            <div class="proposta-button">
-                                <img class="proposta-button-icone" src="img/icone-participe.svg" alt="">
-                                <p class="button-texto">Participe</p>
-                            </div>
+                            <button type="button" class="proposta-button btn btn-primary btn-xs sharp"><i
+                                    class="fas fa-vote-yea icon-voto"></i>Participe</button>
                         </div>
                     </div>
                 </div>
-                <div class="proposta">
+                <div class="col-md proposta">
                     <div class="proposta-top">
                         <div class="proposta-icone_titulo">
-                            <img class="proposta-icone" src="img/pasta.svg" alt="pasta">
+                            <i class="fas fa-folder icon-propostas_relacionadas_pasta"></i>
                             <p class="proposta-titulo">
                                 PEC 110/2019
                             </p>
@@ -132,14 +180,34 @@
                             Bens e Serviços (IBS).
                         </p>
                         <div class="proposta-icone_titulo">
-                            <img class="proposta-icone" src="img/localizacao.svg" alt="Situação atual">
-                            <div class="">
+                            <i class="icon-exclamacao fas fa-exclamation-circle"></i>
+                            <div>
                                 <p class="proposta-situacao-titulo">Situação atual:</p>
                                 <p class="proposta-situacao-status">Aguardando designação de delator.</p>
                                 <p class="proposta-situacao-proximo_evento">Próximo evento></p>
                             </div>
                         </div>
-                        <img class="proposta-tramite" src="img/tramite.svg" alt="tramite">
+                        <div class="proposta-tramite">
+                            <div class="font_smaller">
+                                <div class="inline-block quadrado"></div>
+                                <div class="inline-block quadrado"></div>
+                                <div class="inline-block quadrado"></div>
+                                <div class="circulo-texto">
+                                    <div>CAE</div>
+                                    <div class="inline-block circulo"><i class="fas fa-check-circle"></i></div>
+                                </div>
+                                <div class="inline-block retangulo"></div>
+                                <div class="circulo-texto">
+                                    <div>CCJ</div>
+                                    <div class="inline-block circulo"><i class="fas fa-check-circle"></i></div>
+                                </div>
+                                <div class="inline-block retangulo"></div>
+                                <div class="circulo-texto-grande">
+                                    <div class="bold">PLENÁRIO</div>
+                                    <div class="inline-block circulo verde"><i class="fas fa-check-circle"></i></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="proposta-bottom">
                         <p class="proposta-titulo_participacao">Participação social</p>
@@ -156,17 +224,15 @@
                                     <p class="proposta-resultado_numero_de_votos">35 votos</p>
                                 </div>
                             </div>
-                            <div class="proposta-button">
-                                <img class="proposta-button-icone" src="img/icone-participe.svg" alt="">
-                                <p class="button-texto">Participe</p>
-                            </div>
+                            <button type="button" class="proposta-button btn btn-primary btn-xs sharp"><i
+                                    class="fas fa-vote-yea icon-voto"></i>Participe</button>
                         </div>
                     </div>
                 </div>
-                <div class="proposta">
+                <div class="col-md proposta">
                     <div class="proposta-top">
                         <div class="proposta-icone_titulo">
-                            <img class="proposta-icone" src="img/pasta.svg" alt="pasta">
+                            <i class="fas fa-folder icon-propostas_relacionadas_pasta"></i>
                             <p class="proposta-titulo">
                                 PEC 110/2019
                             </p>
@@ -176,14 +242,34 @@
                             Bens e Serviços (IBS).
                         </p>
                         <div class="proposta-icone_titulo">
-                            <img class="proposta-icone" src="img/localizacao.svg" alt="Situação atual">
-                            <div class="">
+                            <i class="icon-exclamacao fas fa-exclamation-circle"></i>
+                            <div>
                                 <p class="proposta-situacao-titulo">Situação atual:</p>
                                 <p class="proposta-situacao-status">Aguardando designação de delator.</p>
                                 <p class="proposta-situacao-proximo_evento">Próximo evento></p>
                             </div>
                         </div>
-                        <img class="proposta-tramite" src="img/tramite.svg" alt="tramite">
+                        <div class="proposta-tramite">
+                            <div class="font_smaller">
+                                <div class="inline-block quadrado"></div>
+                                <div class="inline-block quadrado"></div>
+                                <div class="inline-block quadrado"></div>
+                                <div class="circulo-texto">
+                                    <div>CAE</div>
+                                    <div class="inline-block circulo"><i class="fas fa-check-circle"></i></div>
+                                </div>
+                                <div class="inline-block retangulo"></div>
+                                <div class="circulo-texto">
+                                    <div class="bold">CCJ</div>
+                                    <div class="inline-block circulo verde"><i class="fas fa-check-circle"></i></div>
+                                </div>
+                                <div class="inline-block retangulo"></div>
+                                <div class="circulo-texto-grande">
+                                    <div>PLENÁRIO</div>
+                                    <div class="circulo"><i class="far fa-circle"></i></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="proposta-bottom">
                         <p class="proposta-titulo_participacao">Participação social</p>
@@ -200,36 +286,40 @@
                                     <p class="proposta-resultado_numero_de_votos">35 votos</p>
                                 </div>
                             </div>
-                            <div class="proposta-button">
-                                <img class="proposta-button-icone" src="img/icone-participe.svg" alt="">
-                                <p class="button-texto">Participe</p>
-                            </div>
+                            <button type="button" class="proposta-button btn btn-primary btn-xs sharp" disabled><i
+                                    class="fas fa-vote-yea icon-voto"></i>Encerrada</button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+
         <section id="estudos_legislativos">
-            <h2>
-                Estudos legislativos
-            </h2>
-            <div class="estudos_legislativos">
-                <div class="estudo_legislativo">
-                    <img class="estudo_legislativo-img" src="img/folha_pautada.svg" alt="icone de folha pautada">
+            <div class="row">
+                <div class="col-md">
+                    <h2>
+                        Estudos legislativos
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md estudo_legislativo">
+                    <i class="icon-folha_pautada far fa-file-alt"></i>
                     <div>
                         <p class="estudo_legislativo-titulo">Textos para discussão</p>
                         <p class="estudo_legislativo-texto">Análise da violência contra as mulheres no Brasil</p>
                     </div>
                 </div>
-                <div class="estudo_legislativo">
-                    <img class="estudo_legislativo-img" src="img/folha_pautada.svg" alt="icone de folha pautada">
+                <div class="col-md estudo_legislativo">
+                    <i class="icon-folha_pautada far fa-file-alt"></i>
                     <div>
                         <p class="estudo_legislativo-titulo">Textos para discussão</p>
                         <p class="estudo_legislativo-texto">Análise da violência contra as mulheres no Brasil</p>
                     </div>
                 </div>
-                <div class="estudo_legislativo">
-                    <img class="estudo_legislativo-img" src="img/folha_pautada.svg" alt="icone de folha pautada">
+                <div class="col-md estudo_legislativo">
+                    <i class="icon-folha_pautada far fa-file-alt"></i>
                     <div>
                         <p class="estudo_legislativo-titulo">Textos para discussão</p>
                         <p class="estudo_legislativo-texto">Análise da violência contra as mulheres no Brasil</p>

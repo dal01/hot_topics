@@ -1,5 +1,5 @@
 #estudos_legislativos{
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .estudos_legislativos{
@@ -8,22 +8,27 @@
 
 .estudo_legislativo{
     display: flex;
-    margin: 0.5rem;
-    margin-bottom: 2rem;
-    padding-bottom: 1rem;
+    margin: 0 0.8rem 2rem 0.8rem;
     border-bottom: 3px solid #0095DA;
+    padding-bottom: 1rem;
+    padding-left: 0;
 }
 .estudo_legislativo-img{
-    margin-right: 0.5rem;
-    height: 2.5rem;
+    margin-right: 1rem;
+    height: 3.5rem;
 }
 .estudo_legislativo-titulo{
-    font-size: xx-small;
+    font-size: small;
 }
 
 
 .estudo_legislativo-texto{
-    font-size: x-small;
+    font-size: small;
     font-weight: bold;
 }
 
+.icon-folha_pautada{
+    font-size: 240%;
+    color: #c4c4c4;
+    margin-right: 0.8rem;
+}
