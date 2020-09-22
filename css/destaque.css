@@ -1,10 +1,16 @@
 
 .destaque{
     display: flex;
-    margin: 5rem 0;
+    /* margin: 5rem 0; */
     max-width: 100%;
     background: #f1f1f1;
     align-items: center;
+}
+.destaque-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 .destaque-conteudo{
     display:flex;
@@ -13,8 +19,8 @@
 }
 .destaque-conteudo-titulo{
     font-size: xx-large;
-    line-height: 4rem;
-    padding-top: 1.5rem;
+    /* line-height: 4rem; */
+    padding: 2.5rem;
 }
 .destaque-conteudo-faixa_azul{
     background: #0095DA;

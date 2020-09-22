@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<style>
+    .content {
+        display: inline-flex;
+        position: relative;
+        min-height: 36px;
+    }
+    .content-width {
+        width: 180px;
+    }
+    .line-item {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .line-bar {
+        display: inline-block;
+        width: 80%;
+        height: 10px;
+        background-color: #ccc;
+        position: absolute;
+        bottom: 5px;
+    }
+    .line-squares {
+        width: 10px;
+        height: 10px;
+        background-color: #ccc;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: inline-block;
+    }
+    /* .line-squares--wrapper {
+        position: absolute;
+        bottom: 5px;
+    } */
+    .line-hide {
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: #fff;
+    }
+</style>
+<body>
+    <div>
+        <div class='content content-width'>
+            <div class='line-bar'></div>
+            <div class='line-item'>
+                <div>CAE</div>
+                <div class='line-hide'>
+                    <i class="far fa-circle"></i>
+                </div>
+            </div>
+            <div class='line-item'>
+                <div>CCJ</div>
+                <div class='line-hide'>
+                    <i class="far fa-circle"></i>
+                </div>
+            </div>
+            <div class='line-item'>
+                <div>PLENÁRIO</div>
+                <div class='line-hide'>
+                    <i class="fas fa-check-circle"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

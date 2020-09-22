@@ -1,5 +1,5 @@
 #estudos_legislativos{
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
 }
 
 .estudos_legislativos{
@@ -8,7 +8,7 @@
 
 .estudo_legislativo{
     display: flex;
-    margin: 0 0.8rem 2rem 0.8rem;
+    /* margin: 0 0.8rem 2rem 0.8rem; */
     border-bottom: 3px solid #0095DA;
     padding-bottom: 1rem;
     padding-left: 0;
