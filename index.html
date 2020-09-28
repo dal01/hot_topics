@@ -7,10 +7,6 @@
     <title>Hot Topics</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-
     <!-- Latest compiled and minified CSS -->
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
@@ -23,8 +19,6 @@
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script> -->
-
-
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/destaque.css">
     <link rel="stylesheet" href="css/propostas_relacionadas.css">
@@ -195,24 +189,31 @@
                         </div>
                         <div class="proposta-bottom my-4">
                             <p class="proposta-titulo_participacao">Participação social</p>
-                            <div class="participacao_social-votacao-container">
                                 <div class="votacoes-container">
-                                    <div class="votacao-container">
-                                        <div class="proposta-sim"></div>
-                                        <p class="proposta-resultado_voto">&nbsp; SIM: </p>
-                                        <p class="proposta-resultado_numero_de_votos m-0">&nbsp; 266 votos </p>
+                                    <div class="votacao-container w-100">
+                                        <div class='proposta-bar--wrapp' style='width: 70%;'>
+                                            <div class="proposta-sim"  style='width:75%' data-toggle="tooltip" data-placement="top"  title='75%'></div>
+                                        </div>
+                                        <div class='proposta-resultado--wrapp'>
+                                            <span class="proposta-resultado_voto">&nbsp;<b> SIM:</b> 266 votos</span>
+                                        </div>
                                     </div>
-                                    <div class="votacao-container">
-                                        <div class="proposta-nao"></div>
-                                        <p class="proposta-resultado_voto">&nbsp; NÃO: </p>
-                                        <p class="proposta-resultado_numero_de_votos m-0">&nbsp; 35 votos </p>
+                                    <div class="votacao-container w-100">
+                                        <div class='proposta-bar--wrapp' style="width: 70%;">
+                                            <div class="proposta-nao" style='width:25%' data-toggle="tooltip" data-placement="top"  title='25%'></div>
+                                        </div>
+                                        <div class='proposta-resultado--wrapp'>
+                                            <span class="proposta-resultado_voto">&nbsp;<b> NÃO:</b> 35 votos</span>
+                                        </div>
                                     </div>
+                                    <div class='clearfix'></div>
                                 </div>
-                                <a class='btn btn-primary btn-sm' href="#"> 
-                                    <i class='fas fa-vote-yea'></i>
-                                    Participe 
-                                </a>
-                            </div>
+                        </div>
+                        <div class='d-block'>
+                            <a class='btn btn-primary btn-sm btn-block' href="#"> 
+                                <i class='fas fa-vote-yea'></i>
+                                Participe 
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -286,24 +287,31 @@
                         </div>
                         <div class="proposta-bottom my-4">
                             <p class="proposta-titulo_participacao">Participação social</p>
-                            <div class="participacao_social-votacao-container">
                                 <div class="votacoes-container">
-                                    <div class="votacao-container">
-                                        <div class="proposta-sim"></div>
-                                        <p class="proposta-resultado_voto">&nbsp; SIM: </p>
-                                        <p class="proposta-resultado_numero_de_votos m-0">&nbsp; 266 votos </p>
+                                    <div class="votacao-container w-100">
+                                        <div class='proposta-bar--wrapp' style='width: 70%;'>
+                                            <div class="proposta-sim"  style='width:75%' data-toggle="tooltip" data-placement="top"  title='75%'></div>
+                                        </div>
+                                        <div class='proposta-resultado--wrapp'>
+                                            <span class="proposta-resultado_voto">&nbsp;<b> SIM:</b> 266 votos</span>
+                                        </div>
                                     </div>
-                                    <div class="votacao-container">
-                                        <div class="proposta-nao"></div>
-                                        <p class="proposta-resultado_voto">&nbsp; NÃO: </p>
-                                        <p class="proposta-resultado_numero_de_votos m-0">&nbsp; 35 votos </p>
+                                    <div class="votacao-container w-100">
+                                        <div class='proposta-bar--wrapp' style="width: 70%;">
+                                            <div class="proposta-nao" style='width:25%' data-toggle="tooltip" data-placement="top"  title='25%'></div>
+                                        </div>
+                                        <div class='proposta-resultado--wrapp'>
+                                            <span class="proposta-resultado_voto">&nbsp;<b> NÃO:</b> 35 votos</span>
+                                        </div>
                                     </div>
+                                    <div class='clearfix'></div>
                                 </div>
-                                <a class='btn btn-primary btn-sm' href="#"> 
-                                    <i class='fas fa-vote-yea'></i>
-                                    Participe 
-                                </a>
-                            </div>
+                        </div>
+                        <div class='d-block'>
+                            <a class='btn btn-primary btn-sm btn-block' href="#"> 
+                                <i class='fas fa-vote-yea'></i>
+                                Participe 
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -377,24 +385,31 @@
                         </div>
                         <div class="proposta-bottom my-4">
                             <p class="proposta-titulo_participacao">Participação social</p>
-                            <div class="participacao_social-votacao-container">
                                 <div class="votacoes-container">
-                                    <div class="votacao-container">
-                                        <div class="proposta-sim"></div>
-                                        <p class="proposta-resultado_voto">&nbsp; SIM: </p>
-                                        <p class="proposta-resultado_numero_de_votos m-0">&nbsp; 266 votos </p>
+                                    <div class="votacao-container w-100">
+                                        <div class='proposta-bar--wrapp' style='width: 70%;'>
+                                            <div class="proposta-sim"  style='width:75%' data-toggle="tooltip" data-placement="top"  title='75%'></div>
+                                        </div>
+                                        <div class='proposta-resultado--wrapp'>
+                                            <span class="proposta-resultado_voto">&nbsp;<b> SIM:</b> 266 votos</span>
+                                        </div>
                                     </div>
-                                    <div class="votacao-container">
-                                        <div class="proposta-nao"></div>
-                                        <p class="proposta-resultado_voto">&nbsp; NÃO: </p>
-                                        <p class="proposta-resultado_numero_de_votos m-0">&nbsp; 35 votos </p>
+                                    <div class="votacao-container w-100">
+                                        <div class='proposta-bar--wrapp' style="width: 70%;">
+                                            <div class="proposta-nao" style='width:25%' data-toggle="tooltip" data-placement="top"  title='25%'></div>
+                                        </div>
+                                        <div class='proposta-resultado--wrapp'>
+                                            <span class="proposta-resultado_voto">&nbsp;<b> NÃO:</b> 35 votos</span>
+                                        </div>
                                     </div>
+                                    <div class='clearfix'></div>
                                 </div>
-                                <a class='btn btn-primary btn-sm' href="#"> 
-                                    <i class='fas fa-vote-yea'></i>
-                                    Participe 
-                                </a>
-                            </div>
+                        </div>
+                        <div class='d-block'>
+                            <a class='btn btn-primary btn-sm btn-block' href="#"> 
+                                <i class='fas fa-vote-yea'></i>
+                                Participe 
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -449,6 +464,15 @@
     <footer>
         Footer
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    <script>
+        $( document ).ready(function() {
+            $('[data-toggle="tooltip"]').tooltip()
+        });
+    </script>
 </body>
 
 </html>

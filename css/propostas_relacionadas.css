@@ -45,8 +45,8 @@
 }
 .proposta-resultado_voto{
     font-size: x-small;
-    font-weight: bold;
-    margin: 0;
+    /* font-weight: bold;
+    margin: 0; */
 }
 .proposta-resultado_numero_de_votos{
     font-size: x-small;
@@ -60,32 +60,32 @@
 }
 
 .votacoes-container{
-    display: flex;
-    flex-flow: column;
+    /* display: flex;
+    flex-flow: column; */
 }
 .votacao-container {
-    display: flex;
+    /* display: flex;
     flex-flow: row;
-    margin: 0.1rem 0;
+    margin: 0.1rem 0; */
 }
 .proposta-sim{
     background: #69c27d;
     height: 0.8rem;
-    width: 6rem;
-    align-self: center;
+    /* width: 99%; */
+    /* align-self: center; */
 }
 .proposta-nao{
     background: #d9534f;
     height: 0.8rem;
-    width: 1rem;
-    align-self: center;
+    /* width: 99%; */
+    /* align-self: center; */
 }
 .proposta-bottom{
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
 }
 .participacao_social-votacao-container{
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
 }
 .proposta-titulo_participacao{
     margin: 0.5rem 0;
@@ -109,8 +109,16 @@
 .votacoes-container{
     align-items: flex-start;
 }
-
-
+.proposta-resultado--wrapp {
+    display: flex;
+    align-items: flex-start;
+    justify-items: flex-start;
+    
+}
+.proposta-bar--wrapp {
+    float: left;
+    display: flex;
+}
 .proposta-tramite{
     margin-top: 1rem;
 }
