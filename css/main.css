@@ -1,0 +1,340 @@
+:root {
+    --primary-color: #00305c;
+    --secondary-color: #005b9e;
+    --tertiary-color: #0095da;
+    --default-color: #f1f1f1;
+    --cousin-color: #faa731;
+    --gray-color: #cccccc;
+    --clear-color: #666;
+    --link-color: #444;
+}
+
+body {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 1.428;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+/* DIALOG COMPONENT */
+.dialog {
+    display: inline-block;
+    width: 100%;
+    border-style: solid;
+    border-color: var(--default-color);
+    border-width: 1px;
+}
+.dialog-bt {
+    border-bottom: 0 !important;
+    border-top: 1px;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-style: solid;
+}
+.dialog-br {
+    border-bottom: 0 !important;
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 1px;
+    border-style: solid;
+}
+.dialog-bb {
+    border-bottom: 1px;
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-style: solid;
+}
+.dialog-bl {
+    border-bottom: 0 !important;
+    border-top: 0 !important;
+    border-left: 1px;
+    border-right: 0 !important;
+    border-style: solid;
+}
+.dialog-md {
+    border-width: 2px !important;
+}
+.dialog-lg {
+    border-width: 4px !important;
+}
+.dialog-b--none {
+    border-width: 0 !important;
+}
+.dialog-primary {
+    border-color: var(--primary-color) !important;
+}
+.dialog-secondary {
+    border-color: var(--secondary-color) !important;
+}
+.dialog-tertiary {
+    border-color: var(--tertiary-color) !important;
+}
+.dialog-cousin {
+    border-color: var(--cousin-color) !important;
+}
+.dialog-gray {
+    border-color: var(--gray-color) !important;
+}
+.dialog-dotted {
+    border-style: dotted !important;
+}
+.dialog-dashed {
+    border-style: dashed !important;
+}
+/* TITLE COMPONENT */
+.title {
+    font-size: 24px;
+    line-height: 1.2;
+}
+.title-m {
+    font-weight: 600;
+}
+.title-sm {
+    font-size: 20px;
+}
+.title-xs {
+    font-size: 18px;
+}
+.title-lg {
+    font-size: 28px;
+}
+.title-xl {
+    font-size: 40px;
+}
+.text {
+    font-size: 1rem;
+    margin: 0;
+}
+@media (max-width: 1199.98px) {
+    .title {
+        font-size: 20px;
+    }
+    .title-sm {
+        font-size: 18px;
+    }
+    .title-lg {
+        font-size: 24px;
+    }
+    .title-xl {
+        font-size: 36px;
+    }
+}
+@media (max-width: 991.98px) {
+    .title {
+        font-size: 18px;
+    }
+    .title-sm {
+        font-size: 18px;
+    }
+    .title-lg {
+        font-size: 20px;
+    }
+    .title-xl {
+        font-size: 28px;
+    }
+}
+@media (max-width: 767.98px) {
+    .title {
+        font-size: 16px;
+    }
+    .title-sm {
+        font-size: 16px;
+    }
+    .title-lg {
+        font-size: 18px;
+    }
+    .title-xl {
+        font-size: 28px;
+    }
+}
+/* LINK COMPONENTE */
+.link {
+    transition: color 0.15s linear;
+    text-decoration: none;
+}
+.link:hover,
+.link:focus,
+.link:active {
+    text-decoration: none;
+}
+.link_block {
+    transition: color 0.15s linear;
+    text-decoration: none;
+}
+.link_block:hover,
+.link_block:focus,
+.link_block:active {
+    text-decoration: none;
+}
+.link-text {
+    color: #27425c;
+}
+.link-text:hover,
+.link-text:focus,
+.link-text:active {
+    color: #3e6892;
+    text-decoration: underline !important;
+}
+.link-deep--facebook {
+    color: white;
+}
+.link-deep--facebook:hover {
+    color: #4867aa;
+}
+.link-deep--twitter {
+    color: white;
+}
+.link-deep--twitter:hover {
+    color: #1da0f1;
+}
+.link-deep--instagram {
+    color: white;
+}
+.link-deep--instagram:hover {
+    color: #a2108f;
+}
+.link-deep--youtube {
+    color: white;
+}
+.link-deep--youtube:hover {
+    color: #f80000;
+}
+.link-deep {
+    color: white;
+}
+.link-deep:hover {
+    color: var(--gray-color);
+}
+.link-deep--cousin {
+    color: white;
+}
+.link-deep--cousin:hover {
+    color: var(--cousin-color);
+}
+.link-light {
+    color: var(--link-color);
+}
+.link-light:hover {
+    color: var(--default-color);
+}
+.link-light--tertiary {
+    color: var(--link-color);
+}
+.link-light--tertiary:hover {
+    color: var(--tertiary-color);
+}
+.link-clear {
+    color: var(--clear-color);
+}
+.link-clear:hover {
+    color: var(--default-color);
+}
+.link-clear--tertiary {
+    color: var(--clear-color);
+}
+.link-clear--tertiary:hover {
+    color: var(--tertiary-color);
+}
+.link-primary--clear {
+    color: var(--primary-color);
+}
+.link-primary--clear:hover {
+    color: var(--tertiary-color);
+}
+/*COLORS DEFAULT COMPONENT*/
+.bg-primary {
+    background-color: var(--primary-color) !important;
+}
+.bg-secondary {
+    background-color: var(--secondary-color) !important;
+}
+.bg-tertiary {
+    background-color: var(--tertiary-color) !important;
+}
+.bg-default {
+    background-color: var(--default-color) !important;
+}
+.bg-cousin {
+    background-color: var(--cousin-color) !important;
+}
+.bg-gray{
+    background-color: var(--gray-color) !important;
+}
+.bg-white{
+    background-color: white;
+}
+.c-primary {
+    color: var(--primary-color);
+}
+.c-secondary {
+    color: var(--secondary-color);
+}
+.c-tertiary {
+    color: var(--tertiary-color);
+}
+.c-default {
+    color: var(--default-color);
+}
+.c-cousin {
+    color: var(--cousin-color);
+}
+.c-cut {
+    color: var(--gray-color);;
+}
+.c-gray{
+    color: var(--gray-color);
+}
+/*COMPONENTE SCALES FONTS*/
+.giga {
+    font-size: 96px;
+}
+.mega {
+    font-size: 72px;
+}
+.kilo {
+    font-size: 48px;
+}
+.pounds {
+    font-size: 40px;
+}
+.alpha {
+    font-size: 36px;
+}
+.beta {
+    font-size: 32px;
+}
+.gamma {
+    font-size: 28px;
+}
+.delta {
+    font-size: 24px;
+}
+.epsilon {
+    font-size: 20px;
+}
+.zeta {
+    font-size: 18px;
+}
+.eta {
+    font-size: 16px;
+}
+.milli {
+    font-size: 12px;
+}
+.micro {
+    font-size: 10px;
+}
+.lighter{
+    font-weight: 100;
+}
