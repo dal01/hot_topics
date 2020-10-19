@@ -39,3 +39,11 @@
 .py-3 {
   padding-bottom: 1rem !important;
 }
+
+.mr-2{
+  margin-right: 0.5rem !important;
+}
+.my-4 {
+  margin-bottom: 1.5rem !important;
+  margin-top: 1.5rem !important;
+}
