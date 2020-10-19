@@ -1,6 +1,3 @@
-.dialog-foto{
-    width: 100%;
-}
 .footer-teste{
     height: 80px;
 }
@@ -19,10 +16,7 @@
     width: 5rem;
     height: 2px;
 }
-.propostas{
-    display: flex;
-    justify-content: space-between;
-}
+
 .proposta-top{
     border-bottom: 1px solid #0095DA;
 }
@@ -76,6 +70,7 @@
     flex-grow: 1;
     align-items: center;
     z-index: 1;
+    padding-top: 14px;
 }
 .line-bar {
     display: inline-block;
@@ -83,7 +78,7 @@
     height: 10px;
     background-color: var(--gray-color);;
     position: absolute;
-    bottom: 5px;
+    bottom: 2px;
 }
 .line-squares {
     width: 10px;
@@ -114,3 +109,23 @@
 .border-radius-0{
     border-radius: 0px;
 }
+
+.border-propostas{
+    border-style: solid;
+    border-color: var(--default-color);
+}
+
+.media-hottopics {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  
+  .media-body-hottopics {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
