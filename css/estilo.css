@@ -71,22 +71,24 @@
     align-items: center;
     z-index: 1;
     padding-top: 14px;
+    position: relative;
+    right: 15px;
 }
 .line-bar {
     display: inline-block;
-    width: 80%;
+    width: 180px;
     height: 10px;
-    background-color: var(--gray-color);;
+    background-color: #cccccc;
     position: absolute;
-    bottom: 2px;
+    left: 45px
 }
 .line-squares {
+    display: inline-block;
     width: 10px;
     height: 10px;
-    background-color: var(--gray-color);;
+    background-color: #cccccc;
     margin-left: 5px;
     margin-right: 5px;
-    display: inline-block;
 }
 .line-squares--wrapper {
     display: flex;
@@ -129,3 +131,11 @@
     -ms-flex: 1;
     flex: 1;
   }
+  .m-width-600{
+      max-width: 600px;
+  }
+  @media (max-width: 767.98px) {
+    .title-destaque {
+        font-size: 28px;
+    }
+}

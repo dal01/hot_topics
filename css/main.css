@@ -31,7 +31,7 @@ img {
     display: inline-block;
     width: 100%;
     border-style: solid;
-    border-color: var(--default-color);
+    border-color: #f1f1f1;
     border-width: 1px;
 }
 .dialog-bt {
@@ -72,19 +72,19 @@ img {
     border-width: 0 !important;
 }
 .dialog-primary {
-    border-color: var(--primary-color) !important;
+    border-color: #00305c !important;
 }
 .dialog-secondary {
-    border-color: var(--secondary-color) !important;
+    border-color: #005b9e !important;
 }
 .dialog-tertiary {
-    border-color: var(--tertiary-color) !important;
+    border-color: #0095da !important;
 }
 .dialog-cousin {
-    border-color: var(--cousin-color) !important;
+    border-color: #faa731 !important;
 }
 .dialog-gray {
-    border-color: var(--gray-color) !important;
+    border-color: #cccccc !important;
 }
 .dialog-dotted {
     border-style: dotted !important;
@@ -214,86 +214,86 @@ img {
     color: white;
 }
 .link-deep:hover {
-    color: var(--gray-color);
+    color: #cccccc;
 }
 .link-deep--cousin {
     color: white;
 }
 .link-deep--cousin:hover {
-    color: var(--cousin-color);
+    color: #faa731;
 }
 .link-light {
-    color: var(--link-color);
+    color: #444;
 }
 .link-light:hover {
-    color: var(--default-color);
+    color: #f1f1f1;
 }
 .link-light--tertiary {
-    color: var(--link-color);
+    color: #444;
 }
 .link-light--tertiary:hover {
-    color: var(--tertiary-color);
+    color: #0095da;
 }
 .link-clear {
-    color: var(--clear-color);
+    color: #666;
 }
 .link-clear:hover {
-    color: var(--default-color);
+    color: #f1f1f1;
 }
 .link-clear--tertiary {
-    color: var(--clear-color);
+    color: #666;
 }
 .link-clear--tertiary:hover {
-    color: var(--tertiary-color);
+    color: #0095da;
 }
 .link-primary--clear {
-    color: var(--primary-color);
+    color: #00305c;
 }
 .link-primary--clear:hover {
-    color: var(--tertiary-color);
+    color: #0095da;
 }
 /*COLORS DEFAULT COMPONENT*/
 .bg-primary {
-    background-color: var(--primary-color) !important;
+    background-color: #00305c !important;
 }
 .bg-secondary {
-    background-color: var(--secondary-color) !important;
+    background-color: #005b9e !important;
 }
 .bg-tertiary {
-    background-color: var(--tertiary-color) !important;
+    background-color: #0095da !important;
 }
 .bg-default {
-    background-color: var(--default-color) !important;
+    background-color: #f1f1f1 !important;
 }
 .bg-cousin {
-    background-color: var(--cousin-color) !important;
+    background-color: #faa731 !important;
 }
 .bg-gray{
-    background-color: var(--gray-color) !important;
+    background-color: #cccccc !important;
 }
 .bg-white{
     background-color: white;
 }
 .c-primary {
-    color: var(--primary-color);
+    color: #00305c;
 }
 .c-secondary {
-    color: var(--secondary-color);
+    color: #005b9e;
 }
 .c-tertiary {
-    color: var(--tertiary-color);
+    color: #0095da;
 }
 .c-default {
-    color: var(--default-color);
+    color: #f1f1f1;
 }
 .c-cousin {
-    color: var(--cousin-color);
+    color: #faa731;
 }
 .c-cut {
-    color: var(--gray-color);;
+    color: #cccccc;;
 }
 .c-gray{
-    color: var(--gray-color);
+    color: #cccccc;
 }
 /*COMPONENTE SCALES FONTS*/
 .giga {
