@@ -1,0 +1,48 @@
+.py-4 {
+    padding-top: 1.5rem !important;
+}
+.p-4 {
+    padding: 1.5rem !important;
+}
+.mb-4{
+    margin-bottom: 1.5rem !important;
+}
+.h-100 {
+    height: 100% !important;
+}
+.mb-2{
+    margin-bottom: 0.5rem !important;
+}
+.p-5 {
+    padding: 3rem !important;
+}
+.pb-1{
+  padding-bottom: 0.25rem !important;
+}
+.my-2 {
+    margin-bottom: 0.5rem !important;
+}
+.ml-3{
+    margin-left: 1rem !important;
+}
+.mb-1{
+  margin-bottom: 0.25rem !important;
+}
+.m-0 {
+    margin: 0 !important;
+}
+.pb-3,
+.py-3 {
+  padding-bottom: 1rem !important;
+}
+.pt-3,
+.py-3 {
+  padding-top: 1rem !important;
+}
+.mr-2{
+  margin-right: 0.5rem !important;
+}
+.my-4 {
+  margin-bottom: 1.5rem !important;
+  margin-top: 1.5rem !important;
+}
