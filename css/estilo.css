@@ -1,11 +1,7 @@
 .footer-teste{
     height: 80px;
 }
-.destaque{
-    display: flex;
-    max-width: 100%;
-    align-items: center;
-}
+
 .destaque-align {
     display: flex;
     justify-content: center;
@@ -80,7 +76,8 @@
     height: 10px;
     background-color: #cccccc;
     position: absolute;
-    left: 45px
+    left: 45px;
+    bottom: 1px;
 }
 .line-squares {
     display: inline-block;
